@@ -21,6 +21,6 @@ Deepfake audio generators (like ElevenLabs) create sound mathematically. While t
 *   **Environment:** Google Colab (T4 GPU Accelerated).
 
 ## 📸 Forensic Evidence
-*(See the full analysis in the [Project_Spectre.ipynb](Project_Spectre.ipynb))*
+*(See the full analysis in the [Project_spectre.ipynb](Project_spectre.ipynb))*
 
 The model successfully distinguishes between the perfect sine-wave structures of AI audio and the chaotic frequency distribution of organic speech.
