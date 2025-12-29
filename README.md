@@ -22,6 +22,13 @@ I have deployed the model to Hugging Face Spaces. You can upload any audio file 
 *   **Method:** Detects "Mathematical Perfection" (smooth sine waves) vs "Organic Physics" (jitter/noise).
 *   **Result:** Achieved **100% detection rate** on synthetic physics datasets.
 
+## ⚠️ Research Limitations
+**Note on Generalization:**
+This model achieves **100% detection accuracy** on algorithmic synthesis datasets (e.g., standard GANs).
+However, it currently exhibits lower sensitivity towards SOTA Latent Diffusion models (e.g., Minimax, ElevenLabs v3) which effectively simulate organic noise floors.
+*   **Current Status:** Proof of Concept for Spectral Analysis.
+*   **Next Steps:** Implementing **Bispectral Analysis (Phase Coupling)** to detect non-linear artifacts in diffusion models.
+
 ## 🛠️ Tech Stack
 *   **Signal Processing:** Librosa (FFT, Spectral Analysis).
 *   **AI:** PyTorch (Custom ResNet-style CNN).
