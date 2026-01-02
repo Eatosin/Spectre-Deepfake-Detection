@@ -37,4 +37,11 @@ However, it currently exhibits lower sensitivity towards SOTA Latent Diffusion m
 ## 📸 Forensic Evidence
 *(See the full analysis in the [Project_spectre.ipynb](Project_spectre.ipynb))*
 
+## 🧠 Model Card
+*   **Architecture:** ResNet-style CNN (Custom 3-layer architecture).
+*   **Training Data:** Synthetic Audio Dataset (Sine Waves vs. Organic Noise).
+*   **Input Features:** Mel-Spectrograms (64 bands).
+*   **Performance:** 100% Accuracy on Synthetic Validation Set.
+*   **Limitations:** Vulnerable to Latent Diffusion artifacts (Minimax).
+
 The model successfully distinguishes between the perfect sine-wave structures of AI audio and the chaotic frequency distribution of organic speech.
